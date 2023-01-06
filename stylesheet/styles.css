@@ -12,10 +12,13 @@ Global styles
     font-size: 20px;
 }
 
-.dark-text-color {
+.dark-text {
     color:rgba(21, 20, 20, 1);
 }
 
+.md-dark-txt {
+    color: #444343;
+}
 .secondary-text-color {
     color:rgba(115, 114, 114, 1);
 }
@@ -40,5 +43,13 @@ Global styles
 
 .header-2 {
     font-size: 40px;
-    
-}   
+    font-weight: 700;
+}  
+
+.flex-container {
+    display:flex;
+}
+
+.icon-green {
+    color:rgba(22, 216, 135, 1);
+}

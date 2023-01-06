@@ -24,3 +24,23 @@ Header - Banner
     padding:216px 0 166px 845px;
     text-align: right;
 }
+
+
+/*
+---------------
+Failure- Blog
+---------------
+*/
+.failure-blog {
+    align-items:center;
+}
+
+.blog-item {
+    width:25%;
+    box-sizing: border-box;
+}
+
+.blog-img {
+    width:55%;
+    box-sizing: border-box;
+}
