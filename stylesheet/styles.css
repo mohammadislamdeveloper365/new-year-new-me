@@ -9,7 +9,7 @@ Global styles
     background-color: #ffffff;
     border-radius: 5px;
     color:rgba(0, 95, 172, 1);
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .dark-text-color {
@@ -23,3 +23,22 @@ Global styles
 .white-text-color {
     color: #FFFFFF;
 }
+
+.small-txt {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.medium-tx {
+    font-size:25px;
+}
+
+.header-1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.header-2 {
+    font-size: 40px;
+    
+}   
