@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+/* *{
+    margin:0px;
+} */
+
+body {
+    font-family:'Work Sans';
+}
+
+/*
+---------------
+Header - Banner
+---------------
+*/
+#banner {
+    background-image: url('../images/banner/banner.png');
+    /* display:flow-root; */
+    background-size: 100% 100%;
+}
+
+.banner-content {
+    width: 380px;
+    padding:216px 0 166px 845px;
+    text-align: right;
+}

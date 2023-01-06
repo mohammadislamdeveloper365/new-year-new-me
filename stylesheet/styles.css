@@ -1,0 +1,25 @@
+/*
+-------------
+Global styles
+-------------
+*/
+.button-primary {
+    padding:15px 20px;
+    border:none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color:rgba(0, 95, 172, 1);
+    font-size: 16px;
+}
+
+.dark-text-color {
+    color:rgba(21, 20, 20, 1);
+}
+
+.secondary-text-color {
+    color:rgba(115, 114, 114, 1);
+}
+
+.white-text-color {
+    color: #FFFFFF;
+}
