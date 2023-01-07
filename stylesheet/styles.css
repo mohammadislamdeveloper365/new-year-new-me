@@ -12,6 +12,14 @@ Global styles
     font-size: 20px;
 }
 
+.button-secondary {
+    padding:15px 20px;
+    border:none;
+    background-color: rgba(0, 95, 172, 1);
+    border-radius: 5px;
+    color:#ffffff;
+    font-size: 20px;
+}
 .dark-text {
     color:rgba(21, 20, 20, 1);
 }
@@ -65,4 +73,8 @@ Global styles
 
 .margin-16 {
     margin:16px 0;
+}
+
+.mt-20 {
+    margin:20px 0px;
 }

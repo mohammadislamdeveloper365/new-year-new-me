@@ -78,3 +78,33 @@ Gradient Card
     background-position: right;
     background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
 }
+
+footer {
+    background-color: black;
+    padding:130px 130px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#footer-left {
+    
+    width:40%;
+    box-sizing: border-box;
+}
+
+#footer-right {
+    width:30%;
+    box-sizing: border-box;
+}
+
+.footer-title {
+    margin:0px;
+}
+
+.input-footer {
+    padding:16px;
+    width:270px;
+    border:1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    background-color: black;
+}
