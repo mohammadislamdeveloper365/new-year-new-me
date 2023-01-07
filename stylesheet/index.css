@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-/* 
-*{
-    margin:0px;
-} 
- */
-
 body {
     font-family:'Work Sans';
 }
@@ -17,13 +11,14 @@ Header - Banner
 */
 #banner {
     background-image: url('../images/banner/banner.png');
-    /* display:flow-root; */
+    display:flex;
+    justify-content: flex-end;
     background-size: 100% 100%;
 }
 
 .banner-content {
-    width: 380px;
-    padding:216px 0 166px 845px;
+    width: 30%;
+    margin:13%;
     text-align: right;
 }
 
@@ -52,6 +47,9 @@ Failure- Blog
     box-sizing: border-box;
 }
 
+.blog-img img {
+    max-width: 100%;
+}
 /*
 ---------------
 Plan - Section
