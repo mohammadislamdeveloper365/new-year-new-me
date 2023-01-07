@@ -31,9 +31,13 @@ Header - Banner
 Failure- Blog
 ---------------
 */
+.info-blog {
+    width:80%;
+    margin:131px auto;
+}
+
 .failure-blog {
     align-items:center;
-    margin:131px auto;
 }
 
 .blog-item {
@@ -43,5 +47,16 @@ Failure- Blog
 
 .blog-img {
     width:55%;
+    box-sizing: border-box;
+}
+
+/*
+---------------
+Plan - Section
+---------------
+*/
+
+.course-item {
+    width:25%;
     box-sizing: border-box;
 }

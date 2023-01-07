@@ -32,7 +32,7 @@ Global styles
     font-weight: 400;
 }
 
-.medium-tx {
+.medium-txt {
     font-size:25px;
 }
 
@@ -44,7 +44,12 @@ Global styles
 .header-2 {
     font-size: 40px;
     font-weight: 700;
-}  
+} 
+
+.header-3 {
+    font-weight: 700;
+    font-size: 30px;
+}
 
 .flex-container {
     display:flex;
@@ -52,4 +57,12 @@ Global styles
 
 .icon-green {
     color:rgba(22, 216, 135, 1);
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.margin-16 {
+    margin:16px 0;
 }
