@@ -36,27 +36,27 @@ Global styles
 }
 
 .small-txt {
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
 }
 
 .medium-txt {
-    font-size:25px;
+    font-size:1.5rem;
 }
 
 .header-1 {
-    font-size: 55px;
+    font-size: 4rem;
     font-weight: 700;
 }
 
 .header-2 {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
 } 
 
 .header-3 {
     font-weight: 700;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .flex-container {
