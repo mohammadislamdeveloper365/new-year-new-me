@@ -4,21 +4,21 @@ Global styles
 -------------
 */
 .button-primary {
-    padding:15px 20px;
+    padding:15px 1.25vw;
     border:none;
     background-color: #ffffff;
     border-radius: 5px;
     color:rgba(0, 95, 172, 1);
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .button-secondary {
-    padding:15px 20px;
+    padding:15px 1.25vw;
     border:none;
     background-color: rgba(0, 95, 172, 1);
     border-radius: 5px;
     color:#ffffff;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .dark-text {
     color:rgba(21, 20, 20, 1);
@@ -36,7 +36,7 @@ Global styles
 }
 
 .small-txt {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
@@ -45,7 +45,7 @@ Global styles
 }
 
 .header-1 {
-    font-size: 4rem;
+    font-size: 4vw;
     font-weight: 700;
 }
 
@@ -56,11 +56,13 @@ Global styles
 
 .header-3 {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.875rem;
 }
 
 .flex-container {
     display:flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .icon-green {

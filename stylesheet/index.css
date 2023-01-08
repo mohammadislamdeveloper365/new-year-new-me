@@ -35,11 +35,13 @@ Failure- Blog
 
 .failure-blog {
     align-items:center;
+    justify-content: space-between;
 }
 
 .blog-item {
     width:35%;
     box-sizing: border-box;
+    
 }
 
 .blog-img {
@@ -56,7 +58,7 @@ Plan - Section
 ---------------
 */
 
-.course-item {
+.flex-cards {
     width:25%;
     box-sizing: border-box;
 }
@@ -81,19 +83,12 @@ Gradient Card
 
 footer {
     background-color: black;
-    padding:130px 130px;
-    display:flex;
+    padding:130px 10vw;
     justify-content: space-between;
 }
 
-#footer-left {
-    
-    width:40%;
-    box-sizing: border-box;
-}
-
-#footer-right {
-    width:30%;
+.footer-card {
+    width:45%;
     box-sizing: border-box;
 }
 
@@ -103,9 +98,27 @@ footer {
 
 .input-footer {
     padding:16px;
-    width:270px;
+    width:50%;
     border:1px solid rgba(255, 255, 255, 1);
     border-radius: 5px;
     background-color: black;
 }
 
+@media screen and (max-width:576px) {
+    .flex-cards {
+        width:50%;
+    }
+
+    .blog-item {
+        width:100%;
+    }
+
+    .blog-img {
+        width:100%;
+    }
+    .footer-card {
+        width:100%;
+    }
+
+
+}
