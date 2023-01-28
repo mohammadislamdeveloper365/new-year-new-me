@@ -11,12 +11,12 @@ Header - Banner
 */
 .new-year-banner {
     background-image: url('../images/banner/banner.png');
-    background-size: cover;
+    background-size:cover;
     
 }
 
 .banner-content {
-    padding:calc(6rem + 6vw);
+    padding:calc(10rem + 10vw);
 }
 
 
@@ -95,11 +95,12 @@ footer {
 
 @media screen and (max-width:576px) {
     .new-year-banner {
-        background-image: url('../images/banner/banner.png');
-        background-position: -100px;
+        background-position:-100px center;
         
     }
-    
+    .banner-content {
+        padding:calc(5rem + 5vw);
+    }
     .blog-img {
         margin-bottom:6rem;
     }
