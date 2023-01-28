@@ -7,85 +7,87 @@
     <title>New Year New Me</title>
     <script src="https://kit.fontawesome.com/4771d5cd20.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./images/new-year.png" type="image/x-icon">
+    <link rel="stylesheet" href="./stylesheet/library.css">
     <link rel="stylesheet" href="./stylesheet/index.css">
     <link rel="stylesheet" href="./stylesheet/styles.css">
 </head>
 <body>
-    <header id="banner">
-        <div class="banner-content">
-            <h1 class="white-text-color header-1">
+    <header class="new-year-banner container row m-b-4">
+        <div class="col-md-2 col-lg-4 col-x-lg-6">
+
+        </div>
+        <div class="col-md-10 col-lg-8 col-x-lg-6 banner-content text-light">
+            <h1 class="m-b-4">
                 All Thinks Are Possible If You believe
             </h1>
-            <p class="white-text-color">
+            <p class="m-b-3">
                 You can win if you want…. Some people might argue that everyone wants to win but just can’t because of the number of reasons. 
             </p>
-            <button class="button-primary">Contact Us</button>
+            <button class="btn btn-light rounded-2">Contact Us</button>
         </div>
     </header>
     <main>
-        <section class="info-blog">
-            <article class="flex-container failure-blog">
-                <div class="blog-img">
-                    <img src="./images/person.png" alt="person photo">
-                </div>
-                <div class="blog-item">
-                    <h2 class="header-2 dark-text">
+        <section class="row container-xs m-b-4 align-items-center">
+            <div class="col-sm-5 blog-img">
+                <img src="./images/new-person.png" alt="Flowers" style="width:auto;">
+            </div>
+            <div class="col-sm-7 blog-item">
+                    <h2 class="header-2 dark-text m-b-2">
                         My failures of previous year
                     </h2>
-                    <p class="small-txt">
+                    <p class="m-b-1">
                         <i class="fa-solid fa-check icon-green"></i> Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.
                     </p>
-                    <p class="small-txt">
+                    <p class="m-b-1">
                         <i class="fa-solid fa-check icon-green"></i> Contrary to popular belief, is not simply.
                     </p>
-                    <p class="small-txt">
+                    <p class="m-b-1">
                         <i class="fa-solid fa-check icon-green"></i> Contrary to popular belief.
                     </p>
-                    <p class="small-txt">
+                    <p class="m-b-1">
                         <i class="fa-solid fa-check icon-green"></i> Contrary to popular , is not simply.
                     </p>
-                    <p class="small-txt">
+                    <p class="m-b-1">
                         <i class="fa-solid fa-check icon-green"></i> Contrary to popular belief, is not simply.
                     </p>
-                    <p class="small-txt">
+                    <p class="m-b-1">
                         <i class="fa-solid fa-check icon-green"></i> Contrary to popular simply.
                     </p>
-                </div>
-            </article>
+            </div>
         </section>
         <section class="info-blog">
             <article>
-                <h2 class="header-2 dark-text txt-center">My Plans</h2>
-                <div class="flex-container txt-center">
-                    <div class="flex-cards">
-                        <img src="./images/icons/web.png" alt="web image">
-                        <h3 class="header-3 margin-16 ">Web Development</h3>
-                        <p class="medium-txt secondary-text-color">I want to start</p>
+                <h2 class="txt-center m-b-4">My Plans</h2>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 txt-center">
+                        <img src="./images/icons/web.png"  class="m-b-2" alt="web image">
+                        <h3 class="m-b-3 txt-center">Web Development</h3>
+                        <p class="m-b-3 txt-center">I want to start</p>
                     </div>
-                    <div class="flex-cards">
-                        <img src="./images/icons/js.png" alt="web image">
-                        <h3 class="header-3 margin-16 ">Javascript</h3>
-                        <p class="medium-txt secondary-text-color">I want to start</p>
+                    <div class="col-sm-6 col-md-3 txt-center">
+                        <img src="./images/icons/js.png" class="m-b-2" alt="web image">
+                        <h3 class="m-b-3">Javascript</h3>
+                        <p class="m-b-3">I want to start</p>
                     </div>
-                    <div class="flex-cards">
-                        <img src="./images/icons/smoke.png" alt="web image">
-                        <h3 class="header-3 margin-16 txt-center">Smoking Habit</h3>
-                        <p class="medium-txt secondary-text-color">I want to start</p>
+                    <div class="col-sm-6 col-md-3 txt-center">
+                        <img src="./images/icons/smoke.png" class="m-b-2" alt="web image">
+                        <h3 class="m-b-3">Smoking Habit</h3>
+                        <p class="m-b-3">I want to start</p>
                     </div>
-                    <div class="flex-cards">
-                        <img src="./images/icons/ecom.png" alt="web image">
-                        <h3 class="header-3 margin-16">ecommerce</h3>
-                        <p class="medium-txt secondary-text-color">I want to start</p>
+                    <div class="col-sm-6 col-md-3 txt-center">
+                        <img src="./images/icons/ecom.png" class="m-b-2" alt="web image">
+                        <h3 class="m-b-3">ecommerce</h3>
+                        <p class="m-b-3">I want to start</p>
                     </div>
                 </div>
             </article>
         </section>
-        <section class="info-blog gradient-card-container">
+        <!-- <section class="container-xs info-blog gradient-card-container">
             <div id="gradient-card-content" class="gradient-card">
                 <h2 class="header-2 white-text-color">
                     Always Keep a <br/>mindset
                 </h2>
-                <button class="button-primary">Call Now</button>
+                <button class="btn btn-primary call-btn rounded-1">Call Now</button>
             </div>
         </section>
     </main>
@@ -110,6 +112,6 @@
             <p><input id="email" name="email" type="text" class="white-text-color input-footer" placeholder="enter your email"></p>
             <button class="button-secondary">Subscribe</button>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>

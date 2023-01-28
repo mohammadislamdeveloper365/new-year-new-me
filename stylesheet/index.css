@@ -9,17 +9,14 @@ body {
 Header - Banner
 ---------------
 */
-#banner {
+.new-year-banner {
     background-image: url('../images/banner/banner.png');
-    display:flex;
-    justify-content: flex-end;
-    background-size: 100% 100%;
+    background-size: cover;
+    
 }
 
 .banner-content {
-    width: 30%;
-    margin:13%;
-    text-align: right;
+    padding:calc(6rem + 6vw);
 }
 
 
@@ -38,20 +35,11 @@ Failure- Blog
     justify-content: space-between;
 }
 
-.blog-item {
-    width:35%;
-    box-sizing: border-box;
-    
-}
-
-.blog-img {
-    width:55%;
-    box-sizing: border-box;
-}
 
 .blog-img img {
     max-width: 100%;
 }
+
 /*
 ---------------
 Plan - Section
@@ -81,6 +69,7 @@ Gradient Card
     background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
 }
 
+
 footer {
     background-color: black;
     padding:130px 10vw;
@@ -105,20 +94,14 @@ footer {
 }
 
 @media screen and (max-width:576px) {
-    .flex-cards {
-        width:50%;
+    .new-year-banner {
+        background-image: url('../images/banner/banner.png');
+        background-position: -100px;
+        
     }
-
-    .blog-item {
-        width:100%;
-    }
-
+    
     .blog-img {
-        width:100%;
+        margin-bottom:6rem;
     }
-    .footer-card {
-        width:100%;
-    }
-
-
 }
+
