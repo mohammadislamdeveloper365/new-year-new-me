@@ -25,15 +25,6 @@ Header - Banner
 Failure- Blog
 ---------------
 */
-.info-blog {
-    max-width:1072px;
-    margin:131px auto;
-}
-
-.failure-blog {
-    align-items:center;
-    justify-content: space-between;
-}
 
 
 .blog-img img {
@@ -58,32 +49,21 @@ Gradient Card
 */
 
 .gradient-card-container{
-    border-radius: 8px;
     background-image: url('../images/watch.png'); 
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    max-width:992px;
+    margin:auto;
 }
 
 #gradient-card-content {
-    padding:59px 64px;
+    border-radius: 8px;
+    padding:4rem 5rem;
     background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
 }
 
 
-footer {
-    background-color: black;
-    padding:130px 10vw;
-    justify-content: space-between;
-}
 
-.footer-card {
-    width:45%;
-    box-sizing: border-box;
-}
-
-.footer-title {
-    margin:0px;
-}
 
 .input-footer {
     padding:16px;
