@@ -470,7 +470,7 @@ RESPONSIVENESS
 }
 @media only screen and (min-width:768px){
     :root {
-        font-size:75%;
+        font-size:80%;
     }
     /*Medium Size Laptop*/
     .container-md {

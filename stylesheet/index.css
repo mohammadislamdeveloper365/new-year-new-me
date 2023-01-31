@@ -16,7 +16,7 @@ Header - Banner
 }
 
 .banner-content {
-    padding:calc(10rem + 10vw);
+    padding:12rem;
 }
 
 
@@ -79,7 +79,7 @@ Gradient Card
         
     }
     .banner-content {
-        padding:calc(5rem + 5vw);
+        padding:calc(5rem + 8vw);
     }
     .blog-img {
         margin-bottom:6rem;
