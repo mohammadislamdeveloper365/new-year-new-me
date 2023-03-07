@@ -148,9 +148,9 @@ Gradient Card
     }
 
     .new-year-close-menu {
-        position:absolute;
-        top:0.5em;
-        right:3rem;
+        position:fixed;
+        top:1rem;
+        right:6rem;
         z-index: 2;
 
     }
