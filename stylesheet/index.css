@@ -15,6 +15,43 @@ Header - Banner
     
 }
 
+
+#new-year-logo--header {
+    font-family: 'Rampart One', cursive;
+    font-size:3rem;
+    font-style:italic;
+    text-shadow: 1rem 0.4rem 0.4rem rgb(255, 154, 47);
+    color:black;
+    font-weight:900;
+}
+
+.new-year-main-menu {
+    list-style: none;
+    margin:0;
+}
+
+.new-year-main-menu a {
+    text-decoration: none;
+    
+}
+
+.new-year-open-menu {
+    display:none;
+}
+
+.new-year-close-menu {
+    display:none;
+}
+
+.fa-bars {
+    font-size:3rem;
+    color:white;
+}
+
+.fa-xmark {
+    color:var(--color-danger);
+    font-size: 3.5rem;
+}
 .banner-content {
     padding:12rem;
 }
@@ -73,6 +110,52 @@ Gradient Card
     background-color: black;
 }
 
+
+@media screen and (max-width:800px) {
+    .new-year-navbar {
+        justify-content: flex-start;
+    }
+
+    .new-year-main-menu {
+        display:none;
+        position:fixed;
+        height:100vh;
+        left:0;
+        right:0;
+        top:0;
+        flex-direction: column;
+        background-color: rgba(11, 11, 11, 0.8);
+        padding-top:5rem;
+        align-items: center;
+        justify-content: center;
+        z-index:1;
+
+    }
+
+    .new-year-main-menu a {
+        padding:1rem;
+        font-size: 2.5rem;
+        font-weight: 800;
+        
+    }
+
+    .new-year-open-menu {
+        display:block;
+        position:absolute;
+        top:0.5rem;
+        right:1rem;
+
+    }
+
+    .new-year-close-menu {
+        position:absolute;
+        top:0.5em;
+        right:3rem;
+        z-index: 2;
+
+    }
+}
+
 @media screen and (max-width:576px) {
     .new-year-banner {
         background-position:-100px center;
@@ -85,4 +168,3 @@ Gradient Card
         margin-bottom:6rem;
     }
 }
-

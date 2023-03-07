@@ -277,6 +277,10 @@ margin , padding
 .p-4 {
     padding:2rem;
 }
+.p-5 {
+    padding:2.25rem;
+}
+
 .p-t-4 {
     padding-top:2rem;
 }
@@ -319,6 +323,14 @@ Display Value
     display:block;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
 .d-inline-block {
     display:inline-block;
 }
@@ -333,19 +345,19 @@ Text Alignment
 --------------
 */
 
-.txt-center {
+.text-center {
     text-align: center;
 }
 
-.txt-left {
+.text-left {
     text-align: left;
 }
 
-.txt-right {
+.text-right {
     text-align: right;
 }
 
-.txt-justify {
+.text-justify {
     text-align: justify;
 }
 
@@ -366,6 +378,14 @@ Flex items Alignment
 
 .justify-content-center {
     justify-content: center;
+}
+
+.justify-content-around {
+    justify-content:space-around;
+}
+
+.justify-content-between {
+    justify-content:space-between;
 }
 
 .align-items-end {
