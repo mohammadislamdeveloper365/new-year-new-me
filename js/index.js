@@ -6,13 +6,13 @@ let mainMenu = getElement('.new-year-main-menu');
 addListener(openMenu, 'click', function () {
     closeMenu.style.display = 'block';
     openMenu.style.display = 'none';
-    mainMenu.style.display = 'flex';
+    mainMenu.style.top='0';
 });
 
 addListener(closeMenu, 'click', function () {
     closeMenu.style.display = 'none';
     openMenu.style.display = 'block';
-    mainMenu.style.display = 'none';
+    mainMenu.style.top = '-100%';
 });
 
 

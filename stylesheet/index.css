@@ -117,19 +117,19 @@ Gradient Card
     }
 
     .new-year-main-menu {
-        display:none;
+        display:flex;
         position:fixed;
         height:100vh;
         left:0;
         right:0;
-        top:0;
+        top:-100%;
         flex-direction: column;
         background-color: rgba(11, 11, 11, 0.8);
         padding-top:5rem;
         align-items: center;
         justify-content: center;
         z-index:1;
-
+        transition: top 1s ease;
     }
 
     .new-year-main-menu a {
