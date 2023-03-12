@@ -32,15 +32,18 @@ Header - Banner
 
 .new-year-main-menu a {
     text-decoration: none;
+    cursor:grab;
     
 }
 
 .new-year-open-menu {
     display:none;
+    cursor:grab;
 }
 
 .new-year-close-menu {
     display:none;
+    cursor:grab;
 }
 
 .fa-bars {
@@ -136,7 +139,13 @@ Gradient Card
         padding:1rem;
         font-size: 2.5rem;
         font-weight: 800;
+        transition: font-size 0.2s ease, color 0.2s ease;
         
+    }
+
+    .new-year-main-menu a:hover {
+        font-size: 3.5rem;
+        color:var(--color-info);
     }
 
     .new-year-open-menu {
